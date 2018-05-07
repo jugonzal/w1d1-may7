@@ -14,7 +14,16 @@ for (i=0; i< password.length; i++) {
   }
 }
 
+var allCaps = "QWERTYUIPAASDFGHJKLZXCVBNM"
+var hasCaps = false;
+for (i=0; i< password.length; i++) {
+  if (allCaps.includes(password[i])) {
+    hasCaps = true;
+  }
+}
+
 // output a report
 console.log("Password to be analyzed: ",password)
 console.log("Analysis of good length: ",goodLength)
 console.log("Includes numbers: ", hasNumbers)
+console.log("Includes CaPS:", hasCaps)
