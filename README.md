@@ -8,7 +8,7 @@ this project will help us analyze the structure of a password
 
 - read a password from the command line
 - produce a report on screen saying how good/bad the password is
-- good: one capital and one lower case
-- good: should include numbers
+- *good*: one capital and one lower case
+- good: _should_ include numbers
 - good: character length over 6
 - bad: just numbers
